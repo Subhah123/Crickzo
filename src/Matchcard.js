@@ -1,18 +1,17 @@
+// src/components/MatchCard.js
 import React from 'react';
 import './MatchCard.css';
 
-function MatchCard() {
+function MatchCard({ team1, team2, score, status }) {
   return (
     <div className="match-card">
       <div className="teams">
-        <span className="team-name">IND</span>
+        <span className="team-name">{team1}</span>
         <span className="vs">vs</span>
-        <span className="team-name">AUS</span>
+        <span className="team-name">{team2}</span>
       </div>
-      <div className="score">
-        India: 250/4 (45.2 ov)
-      </div>
-      <div className="status">LIVE • Chennai</div>
+      <div className="score">{score}</div>
+      <div className="status">{status}</div>
     </div>
   );
 }
