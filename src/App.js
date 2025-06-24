@@ -1,18 +1,16 @@
-import MatchCard from './MatchCard';
-import Navbar from './Navbar';
-import MatchCard from './MatchCard';  // 👈 Add this
+import React from 'react';
+import Navbar from './components/Navbar';
+import MatchCard from './components/MatchCard';
 
 function App() {
   return (
-    <>
+    <div>
       <Navbar />
-      <MatchCard />  {/* 👈 Render Match Card */}
-
-      <div style={{ textAlign: "center", marginTop: "20px" }}>
+      <MatchCard />
+      <div style={{ textAlign: "center" }}>
         <h1>Welcome to Crickzo</h1>
-        <p>Your live cricket update source.</p>
       </div>
-    </>
+    </div>
   );
 }
 
