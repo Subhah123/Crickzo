@@ -1,3 +1,4 @@
+import MatchCard from './MatchCard';
 import Navbar from './Navbar';
 import MatchCard from './MatchCard';  // 👈 Add this
 
