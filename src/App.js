@@ -1,10 +1,10 @@
-import React from "react";
-import "./index.css";
-
 function App() {
   return (
     <div className="App">
-      <h1>🏏 Crickzo - Live Cricket Scores</h1>
+      <header style={{ display: "flex", alignItems: "center", gap: "10px", padding: "10px" }}>
+        <img src="/logo.png" alt="Crickzo Logo" style={{ height: "50px" }} />
+        <h1>Crickzo - Live Cricket Scores</h1>
+      </header>
       <p>Welcome to Crickzo! Your live cricket update source.</p>
     </div>
   );
