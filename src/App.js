@@ -1,10 +1,17 @@
 function App() {
   return (
-    <div className="App">
-      <header style={{ display: "flex", alignItems: "center", gap: "10px", padding: "10px" }}>
-        <img src="/logo.png" alt="Crickzo Logo" style={{ height: "50px" }} />
-        <h1>Crickzo - Live Cricket Scores</h1>
-      </header>
+    <div style={{ textAlign: "center", marginTop: "20px" }}>
+      <img
+        src="/logo.png"
+        alt="Crickzo Logo"
+        style={{
+          height: "60px",
+          width: "60px",
+          borderRadius: "50%",
+          objectFit: "cover"
+        }}
+      />
+      <h1>Crickzo - Live Cricket Scores</h1>
       <p>Welcome to Crickzo! Your live cricket update source.</p>
     </div>
   );
