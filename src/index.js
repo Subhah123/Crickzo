@@ -1,13 +1,7 @@
 import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
 import "./index.css";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>🏏 Crickzo - Live Cricket Scores</h1>
-      <p>Welcome to Crickzo! Your live cricket update source.</p>
-    </div>
-  );
-}
-
-export default App;
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);
