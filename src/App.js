@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Crickzo - Live Cricket Scores</title>
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
-</html>
+import React from "react";
+import "./index.css";
+
+function App() {
+  return (
+    <div className="App">
+      <h1>🏏 Crickzo - Live Cricket Scores</h1>
+      <p>Welcome to Crickzo! Your live cricket update source.</p>
+    </div>
+  );
+}
+
+export default App;
