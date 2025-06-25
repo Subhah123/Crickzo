@@ -42,9 +42,9 @@ function App() {
             </div>
           }
         />
-        <Route path="/fixtures" element={<Fixtures />} />
-        <Route path="/news" element={<News />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/Fixtures" element={<Fixtures />} />
+        <Route path="/News" element={<News />} />
+        <Route path="/About" element={<About />} />
       </Routes>
     </Router>
   );
