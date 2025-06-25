@@ -1,4 +1,3 @@
-// src/components/MatchCard.js
 import React from 'react';
 import './MatchCard.css';
 
